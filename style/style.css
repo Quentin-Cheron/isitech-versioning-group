@@ -1,6 +1,307 @@
+* {
+  transition: all 0.5s;
+}
+
+body #arrow_div {
+  display: none;
+  background: rgba(78, 78, 78, 0.7);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+}
+body #arrow_div:hover {
+  background: #4e4e4e;
+}
+body #arrow_div i {
+  color: white;
+/* global */
+body {
+  font-family: sans-serif;
+}
+
+main {
+  margin-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* header */
+header {
+  width: 1400px;
+  margin: 0 auto;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav svg {
+  width: 80px;
+  height: 25px;
+}
+header nav .nav_btn {
+  margin: 0 auto;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  max-width: 1000px;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: 1s;
+}
+header nav ul li a:hover {
+  color: #f67280;
+}
+header nav .icones li i {
+  padding: 10px;
+}
+
 /* carousel */
 /* article section */
+
+.section_article {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.section_article .article_1 {
+  transition: 1s;
+  overflow: hidden;
+  position: relative;
+}
+.section_article .article_1 div {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+.section_article .article_1 div h2 {
+  text-transform: uppercase;
+}
+.section_article .article_1 div a {
+  background-color: black;
+  text-transform: uppercase;
+  padding: 10px;
+  display: block;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 10px auto 0 auto;
+}
+.section_article .article_1 div a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 0px 2px #000000;
+}
+.section_article .article_1 .hover {
+  background-image: url(../img/section_article/section_article_1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  transition: 0.5s;
+}
+.section_article .article_1 .hover:hover {
+  transform: scale(1.1);
+}
+.section_article .article_1 .hover + div {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section_article .article_2 {
+  transition: 1s;
+  overflow: hidden;
+  position: relative;
+}
+.section_article .article_2 div {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+.section_article .article_2 div h2 {
+  text-transform: uppercase;
+}
+.section_article .article_2 div a {
+  background-color: black;
+  text-transform: uppercase;
+  padding: 10px;
+  display: block;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 10px auto 0 auto;
+}
+.section_article .article_2 div a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 0px 2px #000000;
+}
+.section_article .article_2 .hover {
+  background-image: url(../img/section_article/section_article_2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  transition: 0.5s;
+}
+.section_article .article_2 .hover:hover {
+  transform: scale(1.1);
+}
+.section_article .article_2 .hover + div {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section_article .article_3 {
+  transition: 1s;
+  overflow: hidden;
+  position: relative;
+}
+.section_article .article_3 div {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+.section_article .article_3 div h2 {
+  text-transform: uppercase;
+}
+.section_article .article_3 div a {
+  background-color: black;
+  text-transform: uppercase;
+  padding: 10px;
+  display: block;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 10px auto 0 auto;
+}
+.section_article .article_3 div a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 0px 2px #000000;
+}
+.section_article .article_3 .hover {
+  background-image: url(../img/section_article/section_article_3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  transition: 0.5s;
+}
+.section_article .article_3 .hover:hover {
+  transform: scale(1.1);
+}
+.section_article .article_3 .hover + div {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section_article .article_4 {
+  transition: 1s;
+  overflow: hidden;
+  position: relative;
+}
+.section_article .article_4 div {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+.section_article .article_4 div h2 {
+  text-transform: uppercase;
+}
+.section_article .article_4 div a {
+  background-color: black;
+  text-transform: uppercase;
+  padding: 10px;
+  display: block;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 10px auto 0 auto;
+}
+.section_article .article_4 div a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 0px 2px #000000;
+}
+.section_article .article_4 .hover {
+  background-image: url(../img/section_article/section_article_4.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  transition: 0.5s;
+}
+.section_article .article_4 .hover:hover {
+  transform: scale(1.1);
+}
+.section_article .article_4 .hover + div {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section_article > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.section_article .article_1 {
+  width: 476px;
+  height: 575px;
+}
+.section_article .article_2 {
+  width: 476px;
+  height: 382px;
+}
+.section_article .article_3 {
+  width: 476px;
+  height: 371px;
+}
+.section_article .article_4 {
+  width: 476px;
+  height: 586px;
+ }
 /* new arrivals section */
 #new_arrivals {
   display: flex;
@@ -25,4 +326,5 @@
 
 /* partenership section */
 /* blog section */
-/* footer *//*# sourceMappingURL=style.css.map */
+/* footer */
+}/*# sourceMappingURL=style.css.map */
