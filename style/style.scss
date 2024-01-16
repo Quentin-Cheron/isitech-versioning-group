@@ -4,7 +4,7 @@
 body{
     #arrow_div{
         display: none;
-        background: rgba($color: #4e4e4e80, $alpha: 0.7);
+        background: rgba( black, $alpha: 0.7);
         width: fit-content;
         padding: 0.8rem;
         border-radius: 1rem;
@@ -12,7 +12,7 @@ body{
         right: 1rem;
         bottom: 1rem;
         &:hover{
-            background: rgba($color: #4e4e4e80, $alpha: 1.0);
+            background: rgba(black, $alpha: 1.0);
         }
         i{
             color: white;
@@ -21,7 +21,8 @@ body{
 }
 /* global */
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 main {
     margin-top: 5rem;
@@ -189,4 +190,30 @@ header {
     width: 476px;
     height: 586px;
   }
+}
+
+/* footer */
+footer {
+    padding-top: 30px;
+   
+    .top_footer {
+        justify-content: center;
+        display: flex;
+        gap: 5rem;
+        padding: 20px;
+        background-color: #000000;
+        color: white;
+        article {
+            display: flex;
+            .fa-solid {
+                transform: scale(1.8);
+                height: 10px;
+                margin-right: 20px;
+                margin-top: 20px;
+            }
+            h3, p {
+                margin: 5px;
+            }
+        }
+    }
 }
