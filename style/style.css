@@ -2,6 +2,27 @@
 /* carousel */
 /* article section */
 /* new arrivals section */
+#new_arrivals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#new_arrivals div {
+  display: flex;
+  gap: 1rem;
+}
+#new_arrivals h2, #new_arrivals p {
+  flex-basis: 100%;
+}
+#new_arrivals article {
+  text-align: center;
+}
+#new_arrivals article ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 /* partenership section */
 /* blog section */
 /* footer *//*# sourceMappingURL=style.css.map */
