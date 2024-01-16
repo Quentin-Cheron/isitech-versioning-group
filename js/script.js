@@ -1,10 +1,9 @@
 const arrow_div = document.createElement('div');
 arrow_div.id ="arrow_div";
-//Création depuis le dom de la div et attribution de l'id "arrow div"
+// making div with id "arrow div"
 const arrow_i = document.createElement('i');
 arrow_i.className="fa-solid fa-arrow-up";
-//Création depuis le dom de la balise i qui avec faire Awesome va être une fleche vers le haut
-
+// making <i> element with up arrow on class
 document.body.appendChild(arrow_div);
 arrow_div.appendChild(arrow_i);
 
@@ -14,9 +13,9 @@ window.addEventListener('scroll',()=>{
     }else{
         arrow_div.style.display="none";
     }
-    //si l'utilisateur scroll on voit la div sinon non
+    // on scroll, div is show
 })
 arrow_div.addEventListener('click',()=>{
     window.scrollTo(0,0);
-    //si on clique dessus ça nous ramène en haut de la page
-})
+    // on click then show top of page
+});
