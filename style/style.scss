@@ -1,8 +1,150 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.flex {
+  display: flex;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* header */
 
 /* carousel */
 
 /* article section */
+
+.section_article {
+  @for $i from 1 through 4 {
+    .article_#{$i} {
+      background-image: url(../img/section_article/section_article_#{$i}.jpg);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      transition: 1s;
+      div {
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+        h2 {
+          text-transform: uppercase;
+        }
+        a {
+          background-color: black;
+          text-transform: uppercase;
+          padding: 10px;
+          display: block;
+          width: max-content;
+          margin: 10px auto 0 auto;
+        }
+      }
+    }
+  }
+  gap: 1.5rem;
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .article_1 {
+    width: 476px;
+    height: 575px;
+  }
+  .article_2 {
+    width: 476px;
+    height: 382px;
+  }
+  .article_3 {
+    width: 476px;
+    height: 371px;
+  }
+  .article_4 {
+    width: 476px;
+    height: 586px;
+  }
+}
+nav {
+    background-color: #34495e;
+    height: 80px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 999;
+}
+
+#logo {height: 80px; margin-left: 20px;}
+
+.wrapper {
+    padding: 50px 50px;
+    max-width: 1200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.right {float: right !important;}
+/* Image zoom on hover + Overlay colour */
+.parent {
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+
+    display: inline-block;
+  cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.parent:hover .child, .parent:focus .child {
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
 
 /* new arrivals section */
 
