@@ -50,6 +50,15 @@ ul {
   display: flex;
   gap: 1rem;
 }
+#new_arrivals div .sold .old_price {
+  color: gray;
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}
+#new_arrivals div .sold .new_price {
+  margin-left: 0.5rem;
+  color: pink;
+}
 #new_arrivals h2, #new_arrivals p {
   flex-basis: 100%;
 }

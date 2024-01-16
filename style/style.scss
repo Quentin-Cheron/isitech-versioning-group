@@ -48,6 +48,17 @@ ul {
     display: flex;
     gap: 1rem;
     
+    .sold{
+      .old_price{        
+        color: gray;
+        text-decoration: line-through;
+        margin-right: 0.5rem;
+      }
+      .new_price{
+        margin-left: 0.5rem;
+        color: pink;
+      }
+    }
   }
     h2, p {
         flex-basis: 100%;
