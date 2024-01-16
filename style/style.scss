@@ -23,6 +23,22 @@ body{
 body {
     font-family: sans-serif;
 }
+main {
+    margin-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
 /* header */
 header {
     width: 1400px;
@@ -71,6 +87,9 @@ header {
 
 /* article section */
 .section_article {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
   @for $i from 1 through 4 {
     .article_#{$i} {
       transition: 1s;
@@ -120,7 +139,6 @@ header {
       }
     }
   }
-  gap: 1.5rem;
   > div {
     display: flex;
     flex-direction: column;

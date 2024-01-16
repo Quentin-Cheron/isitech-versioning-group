@@ -25,6 +25,23 @@ body {
   font-family: sans-serif;
 }
 
+main {
+  margin-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* header */
 header {
   width: 1400px;
@@ -68,6 +85,8 @@ header nav .icones li i {
 /* carousel */
 /* article section */
 .section_article {
+  display: flex;
+  justify-content: center;
   gap: 1.5rem;
 }
 .section_article .article_1 {
