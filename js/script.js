@@ -19,3 +19,4 @@ arrow_div.addEventListener('click',()=>{
     window.scrollTo(0,0);
     // on click then show top of page
 });
+
