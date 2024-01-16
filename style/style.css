@@ -3,6 +3,7 @@
 }
 
 body #arrow_div {
+  display: none;
   background: rgba(78, 78, 78, 0.7);
   width: -webkit-fit-content;
   width: -moz-fit-content;
