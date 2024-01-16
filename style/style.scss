@@ -36,6 +36,35 @@ ul {
     list-style: none;
 }
 
+#new_arrivals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    div {
+    display: flex;
+    gap: 1rem;
+    
+  }
+    h2, p {
+        flex-basis: 100%;
+    }
+
+    article {
+      text-align: center;
+      
+
+      ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+}
+  
+/* partenership section */
+
 img {
     max-width: 100%;
 }
