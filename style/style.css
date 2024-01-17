@@ -8,7 +8,6 @@ body #arrow_div {
   cursor: pointer;
   display: none;
   background: rgba(0, 0, 0, 0.7);
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.8rem;
@@ -77,6 +76,9 @@ img {
 }
 
 /* header */
+header {
+  /* carousel */
+}
 header nav {
   display: flex;
   align-items: center;
@@ -204,7 +206,6 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -253,7 +254,6 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -302,7 +302,6 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -351,7 +350,6 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -443,6 +441,14 @@ footer .bottom_footer ul li a {
 }
 footer .bottom_footer ul li a:hover {
   color: #f67280;
+}
+footer .bottom_footer ul button {
+  cursor: pointer;
+}
+footer .bottom_footer ul button:hover {
+  background-color: white;
+  box-shadow: 0px 0px 0px 2px #000000;
+  color: black;
 }
 footer .bottom_footer input {
   padding: 10px 20px;
