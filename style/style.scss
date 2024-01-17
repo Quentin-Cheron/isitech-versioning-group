@@ -195,7 +195,6 @@ header {
 /* footer */
 footer {
     padding-top: 30px;
-   
     .top_footer {
         justify-content: center;
         display: flex;
@@ -215,5 +214,38 @@ footer {
                 margin: 5px;
             }
         }
+    }
+    .bottom_footer {
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+        align-items: center;
+        ul {
+            max-width: 400px;
+            li {
+                a {
+                    color: rgb(60, 60, 60);
+                    font-size: 0.8rem;
+                }
+            }
+        }
+        input {
+            padding: 10px 20px; 
+        }
+        button {
+            border: none;
+            display: block;
+            margin: 10px 0px;
+            padding: 10px 20px;
+            color: white;
+            background-color: black;
+        }
+    }
+    small {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        border-top: solid 2px black;
     }
 }

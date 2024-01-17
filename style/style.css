@@ -504,4 +504,47 @@ footer .top_footer article .fa-solid {
 footer .top_footer article h3, footer .top_footer article p {
   margin: 5px;
 }
+
+footer .bottom_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .bottom_footer ul {
+  max-width: 400px;
+}
+
+footer .bottom_footer ul li a {
+  color: #3c3c3c;
+  font-size: 0.8rem;
+}
+
+footer .bottom_footer input {
+  padding: 10px 20px;
+}
+
+footer .bottom_footer button {
+  border: none;
+  display: block;
+  margin: 10px 0px;
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+}
+
+footer small {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-top: solid 2px black;
+}
 /*# sourceMappingURL=style.css.map */
