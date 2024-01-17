@@ -1,4 +1,4 @@
-/* global */
+/* GLOBAL */
 * {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -82,14 +82,9 @@ ul {
   margin: 0;
 }
 
-/* partenership section */
+/* PARTNERSHIP SECTION */
 img {
   max-width: 100%;
-}
-
-/* header */
-header {
-  /* carousel */
 }
 
 header nav {
@@ -215,7 +210,7 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-/* article section */
+/* ARTICLE SECTION */
 .section_article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -541,7 +536,7 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   height: 586px;
 }
 
-/* footer */
+/* FOOTER */
 footer {
   padding-top: 30px;
 }
