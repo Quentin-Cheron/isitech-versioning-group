@@ -30,26 +30,25 @@
 
 **Organisation des commits**
 
-1. Création de commits explicative du problème avec comme premier mot (add, remove, update), utilisation de commitizen.
+1. Création de commits explicatifs du problème avec comme premier terme (add, remove, update), utilisation de commitizen.
 2. Nous avons utilisé SASS.
 
 #### Phase 3: Intégration et Tests
 
-1. Défis rencontrés :
+1. Problèmes rencontrés :
     - pull du develop sur une branche de fonctionnalité
-    - Nous avons regarder ensemble les différents conflits rencontré
-    - Conflits rencontrés
+    - Conflits
 
-2. Nous nous sommes entretenue et organisés sur les parties du code à garder.
+2. Nous nous sommes entretenus et organisés sur les parties du code à garder.
 
 #### Phase 4: Préparation de la Release
 
-1. Nous avons tester :
+1. Nous avons testé :
    - Les fonctionnalités du carousel
    - Les annimations
    - L'importation de la police d'écriture
    - Le bon fonctionnement du css
-   - Les fonctionnaités du JavaScript
+   - Les fonctionnalités du JavaScript
 
 2. Nous n'avons pas rencontré de problèmes.
 
@@ -61,28 +60,28 @@
 
 #### Phase 6: Rétrospective et Documentation
 
-1. Les principeaux enseignements tirés de ce projet :
-   - Utiliser les differentes commandes GitHub.
+1. Les principaux enseignements tirés de ce projet :
+   - Utiliser les differentes commandes Git.
    - Résoudre des conflits
-   - Travail en équipe
-   - organisation (Chaqun a une tache)
+   - Travailler en équipe
+   - Organisation (Chaqun a une tâche)
 
 2. Nous pourrons améliorer nos pratiques :
-   - S'améliorant sur les commandes GitHub
+   - S'améliorant sur les commandes Git
    - Améliorer la communication en équipe
 
 #### Phase 7: Rétrospective et Documentation
 
 1. Nous avons eu qu'une seul version de notre site de la création à la production.
 
-2. Les principeaux enseignements tirés de ce projet :
-   - Utiliser les differentes commandes GitHub.
+2. Les principaux enseignements tirés de ce projet :
+   - Utiliser les differentes commandes Git.
    - Résoudre des conflits
    - Travail en équipe
    - organisation (Chaqun a une tache)
 
 3. Nous pourrons améliorer nos pratiques :
-   - S'améliorant sur les commandes GitHub
+   - S'améliorant sur les commandes Git
    - Améliorer la communication en équipe
 
 ***Les tâches***
@@ -92,7 +91,7 @@
    - Readme
 - Maxime : 
    - New Arrivals
-   - Shéma
+   - Schéma
    - GitHub project
 - Quentin :
    - Carousel
@@ -101,5 +100,5 @@
    - Pull request
 - Noha : 
    - Arrow
-   - Shéma
+   - Schéma
    - GitHub project
