@@ -157,4 +157,4 @@ arrow_div.addEventListener('click',()=>{
     initCarousel();
   
   }(document));
-});
+
