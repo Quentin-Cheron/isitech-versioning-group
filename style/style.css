@@ -9,6 +9,7 @@ body {
 body #arrow_div {
   display: none;
   background: rgba(78, 78, 78, 0.7);
+  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.8rem;
@@ -26,6 +27,7 @@ body #arrow_div i {
 }
 
 main {
+  margin-top: 5rem;
   margin-top: 23rem;
 }
 main .fa-star {
@@ -59,7 +61,8 @@ ul {
   margin-left: 0.5rem;
   color: pink;
 }
-#new_arrivals h2, #new_arrivals p {
+#new_arrivals h2,
+#new_arrivals p {
   flex-basis: 100%;
 }
 #new_arrivals article {
@@ -208,6 +211,7 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
+  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -256,6 +260,7 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
+  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -304,6 +309,7 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
+  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -352,6 +358,7 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
+  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
