@@ -24,6 +24,14 @@ body #arrow_div i {
   color: white;
 }
 
+.dark {
+  color: #fff;
+  background: #313131;
+}
+.dark a {
+  color: #fff !important;
+}
+
 main {
   margin-top: 1rem;
 }

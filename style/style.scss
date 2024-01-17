@@ -22,7 +22,13 @@ body{
         }
     }
 }
-
+.dark{
+  color: #fff;
+  background: #313131;
+  a{
+    color: #fff !important;
+  }
+}
 main {
   margin-top: 1rem;
     .fa-star{
