@@ -70,6 +70,9 @@
    - S'améliorant sur les commandes Git
    - Améliorer la communication en équipe
 
+3. documentation détaillée du processus de développement :
+- 
+
 #### Phase 7: Rétrospective et Documentation
 
 1. Nous avons eu qu'une seul version de notre site de la création à la production.
@@ -102,3 +105,9 @@
    - Arrow
    - Schéma
    - GitHub project
+
+***GitHub***
+- Marty : Marty2R
+- Quentin : Quentin-cheron / chiqua-glitch (compte perso)
+- Maxime : dev404-M
+- Noha : nohamartoia
