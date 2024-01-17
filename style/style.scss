@@ -6,6 +6,7 @@
 
 body {
   #arrow_div {
+    cursor: pointer;
     display: none;
     background: rgba($color: #4e4e4e80, $alpha: 0.7);
     width: fit-content;
