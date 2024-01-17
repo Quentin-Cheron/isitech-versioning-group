@@ -9,6 +9,7 @@ body {
 body #arrow_div {
   display: none;
   background: rgba(78, 78, 78, 0.7);
+  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.8rem;
@@ -28,6 +29,9 @@ body #arrow_div i {
 main {
   margin-top: 1rem;
 }
+main .fa-star {
+  color: #FFD43B;
+}
 
 a {
   text-decoration: none;
@@ -46,6 +50,15 @@ ul {
 #new_arrivals div {
   display: flex;
   gap: 1rem;
+}
+#new_arrivals div .sold .old_price {
+  color: gray;
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}
+#new_arrivals div .sold .new_price {
+  margin-left: 0.5rem;
+  color: pink;
 }
 #new_arrivals h2,
 #new_arrivals p {
@@ -196,6 +209,7 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
+  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -244,6 +258,7 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
+  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -292,6 +307,7 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
+  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -340,6 +356,7 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
+  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
