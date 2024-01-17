@@ -116,7 +116,7 @@ arrow_div.addEventListener('click',()=>{
   
         // If it's the last slide, reset to 0, else +1
         if (slide === (totalItems - 1)) {
-          slide = 0;
+          slide = 0
         } else {
           slide++;
         }
@@ -157,4 +157,4 @@ arrow_div.addEventListener('click',()=>{
     initCarousel();
   
   }(document));
-});
+

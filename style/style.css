@@ -27,8 +27,7 @@ body #arrow_div i {
 }
 
 main {
-  margin-top: 5rem;
-  margin-top: 23rem;
+  margin-top: 1rem;
 }
 main .fa-star {
   color: #FFD43B;
@@ -162,13 +161,12 @@ header .carousel-wrapper .carousel .carousel__button--next {
   border-radius: 50%;
   cursor: pointer;
   z-index: 1001;
-  border: 1px solid black;
 }
 header .carousel-wrapper .carousel .carousel__button--prev {
-  left: 0;
+  left: 1rem;
 }
 header .carousel-wrapper .carousel .carousel__button--next {
-  right: 0;
+  right: 1rem;
 }
 header .carousel-wrapper .carousel .carousel__button--prev::after,
 header .carousel-wrapper .carousel .carousel__button--next::after {

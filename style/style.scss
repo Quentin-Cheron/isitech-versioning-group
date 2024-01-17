@@ -26,11 +26,10 @@ body {
 }
 
 main {
-    margin-top: 5rem;
+  margin-top: 1rem;
     .fa-star{
         color: #FFD43B;
     }
-  margin-top: 23rem;
 }
 
 a {
@@ -168,14 +167,13 @@ header {
         border-radius: 50%;
         cursor: pointer;
         z-index: 1001;
-        border: 1px solid black;
       }
       .carousel__button--prev {
-        left: 0;
+        left: 1rem;
       }
 
       .carousel__button--next {
-        right: 0;
+        right: 1rem;
       }
 
       .carousel__button--prev::after,
