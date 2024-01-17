@@ -71,7 +71,21 @@
    - Améliorer la communication en équipe
 
 3. documentation détaillée du processus de développement :
-- 
+   1. Collaboration :
+   Afin de travailler en équipe, Quantin a créé le dépot puis nous à invité, afin que nous ayons les droits.
+
+   2. Distribution des tâches :
+   Grace à GitHub project, nous avons pu lister l'ensenble des tâches à faire. Une fois listée, nous les avons répartis équitablement. 
+
+   3. Processus de développement :
+   Une branche a été pour chaque fonctionnalités avec comme prefixe feature. Une fois toute les fonctionnalités terminées, nôtre code commun c'est retrouvé sur la branche develop. Puis nous l'avons déplacer sur la brache release pour verrifier qu'il n'y ai pas de bugs ni conflits avant la mise en production sur main.
+
+#### Retrospective et leçon apprise 
+
+1. Distribution des tâches : Cela nous a entrainé a repartir le travail 
+2. Gestion du temps : Nous avons du surveiller le temps qu'il nous restait et celui deja écoulé
+3. Prise de notes : Savoir repérer les informations inportantes
+4. Principale difficulté : Mieux maitriser les commandes Git 
 
 #### Phase 7: Rétrospective et Documentation
 
