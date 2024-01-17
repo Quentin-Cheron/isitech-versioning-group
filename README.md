@@ -24,6 +24,7 @@
    - Commitizen
    - Git flow
    - Excalidraw : Shéma
+   - GitHub Project
 
 #### Phase 2: Développement des Fonctionnalités
 
@@ -83,3 +84,22 @@
 3. Nous pourrons améliorer nos pratiques :
    - S'améliorant sur les commandes GitHub
    - Améliorer la communication en équipe
+
+***Les tâches***
+- Marty : 
+   - Header
+   - Footer
+   - Readme
+- Maxime : 
+   - New Arrivals
+   - Shéma
+   - GitHub project
+- Quentin :
+   - Carousel
+   - Article section
+   - Readme
+   - Pull request
+- Noha : 
+   - Arrow
+   - Shéma
+   - GitHub project
