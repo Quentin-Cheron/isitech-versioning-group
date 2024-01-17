@@ -54,18 +54,32 @@
 
 ### Phase 5: Mise en Production et Maintenance
 
-1. 
+1. Nous n'avons pas rencontré de problèmes lors de la mise en production.
 
-2. 
+2. Nous nous informons sur les nouveaux patch des langages des dépendances utilisées.
 
 #### Phase 6: Rétrospective et Documentation
 
-1. 
+1. Les principeaux enseignements tirés de ce projet :
+   - Utiliser les differentes commandes GitHub.
+   - Résoudre des conflits
+   - Travail en équipe
+   - organisation (Chaqun a une tache)
 
-2. 
+2. Nous pourrons améliorer nos pratiques :
+   - S'améliorant sur les commandes GitHub
+   - Améliorer la communication en équipe
 
 #### Phase 7: Rétrospective et Documentation
 
-1. 
+1. Nous avons eu qu'une seul version de notre site de la création à la production.
 
-2. 
+2. Les principeaux enseignements tirés de ce projet :
+   - Utiliser les differentes commandes GitHub.
+   - Résoudre des conflits
+   - Travail en équipe
+   - organisation (Chaqun a une tache)
+
+3. Nous pourrons améliorer nos pratiques :
+   - S'améliorant sur les commandes GitHub
+   - Améliorer la communication en équipe
