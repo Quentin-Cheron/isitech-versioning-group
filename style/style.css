@@ -9,7 +9,6 @@ body {
 body #arrow_div {
   display: none;
   background: rgba(78, 78, 78, 0.7);
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.8rem;
@@ -209,7 +208,6 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -258,7 +256,6 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -307,7 +304,6 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
@@ -356,7 +352,6 @@ header .carousel-wrapper .carousel .carousel__button--next::after {
   text-transform: uppercase;
   padding: 10px;
   display: block;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   margin: 10px auto 0 auto;
