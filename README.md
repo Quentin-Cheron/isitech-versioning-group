@@ -1,5 +1,20 @@
 # Création d'un site web appelé TechStore
 
+## Utilisation du projet
+## 1. Cloner le dépôt
+```ssh
+git clone https://github.com/Quentin-Cheron/isitech-versioning-group.git
+```
+## 2. Consulter les commits
+```ssh
+git log
+```
+
+## 3. Changer de branche
+```ssh
+git checkout <branch>
+```
+
 **Création du repository**
 
 #### Phase 1: Initialisation et Planification
@@ -72,7 +87,7 @@
 
 3. documentation détaillée du processus de développement :
    1. Collaboration :
-   Afin de travailler en équipe, Quantin a créé le dépot puis nous à invité, afin que nous ayons les droits.
+   Afin de travailler en équipe, Quentin a créé le dépot puis nous à invité, afin que nous ayons les droits.
 
    2. Distribution des tâches :
    Grace à GitHub project, nous avons pu lister l'ensenble des tâches à faire. Une fois listée, nous les avons répartis équitablement. 
