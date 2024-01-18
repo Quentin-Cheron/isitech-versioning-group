@@ -22,7 +22,18 @@ body{
         }
     }
 }
-
+.dark{
+  color: #fff;
+  background: #313131;
+  a{
+    color: #fff !important;
+  }
+  .section_article{
+    h2,p{
+      color: black;
+    }
+  }
+}
 main {
   margin-top: 1rem;
     .fa-star{
@@ -307,7 +318,7 @@ footer {
                     color: rgb(60, 60, 60);
                     font-size: 0.8rem;
                     &:hover{
-                      color: #f67280;
+                      color: #f67280 !important;
                     }
                 }
             }

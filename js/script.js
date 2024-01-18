@@ -158,3 +158,17 @@ arrow_div.addEventListener('click',()=>{
   
   }(document));
 
+
+
+  //dark mode
+
+  const dark = document.getElementById('dark');
+  dark.addEventListener('click',()=>{
+    if(dark.className=="fa-solid fa-moon"){
+      dark.className="fa-solid fa-sun"
+      document.body.className="dark";
+    }else{
+      dark.className="fa-solid fa-moon";
+      document.body.className="";
+    }
+  })

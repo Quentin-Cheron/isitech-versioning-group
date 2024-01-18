@@ -23,6 +23,17 @@ body #arrow_div i {
   color: white;
 }
 
+.dark {
+  color: #fff;
+  background: #313131;
+}
+.dark a {
+  color: #fff !important;
+}
+.dark .section_article h2, .dark .section_article p {
+  color: black;
+}
+
 main {
   margin-top: 1rem;
 }
@@ -440,7 +451,7 @@ footer .bottom_footer ul li a {
   font-size: 0.8rem;
 }
 footer .bottom_footer ul li a:hover {
-  color: #f67280;
+  color: #f67280 !important;
 }
 footer .bottom_footer ul button {
   cursor: pointer;
