@@ -28,6 +28,11 @@ body{
   a{
     color: #fff !important;
   }
+  .section_article{
+    h2,p{
+      color: black;
+    }
+  }
 }
 main {
   margin-top: 1rem;
@@ -313,7 +318,7 @@ footer {
                     color: rgb(60, 60, 60);
                     font-size: 0.8rem;
                     &:hover{
-                      color: #f67280;
+                      color: #f67280 !important;
                     }
                 }
             }
